@@ -1,0 +1,28 @@
+body{
+   background-color: #ccc;
+   padding: 1em;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+   background-color: white;
+   width: fit-content;
+   border-radius: 15px;
+   padding: 0.1em 1em 1em 1em;
+   margin: 0.5em;
+}
+
+#m-ou-f{
+   display: flex;
+   justify-content: space-around;
+   padding-top: 0.5em;
+   margin-bottom: 1.5em;
+}
+
+h1{
+   text-align: center;
+}
+
+p{
+   font-size: 21px;
+}
