@@ -35,9 +35,9 @@
       var r = 'a';
 
       if (btnRadioM.checked){
-         var r = btnRadioM.value;
+         r = btnRadioM.value;
       } else {
-         var r = btnRadioF.value;
+         r = btnRadioF.value;
       }
 
       var n = $input.value;

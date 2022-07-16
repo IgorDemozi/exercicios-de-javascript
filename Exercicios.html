@@ -3,7 +3,7 @@
 <html lang="pt-br">
 
 <head>
-   <title>Exercícios de Javascrip</title>
+   <title>Exercícios de Javascript</title>
    <meta charset="utf-8">
 
    <link rel="stylesheet" href="css/estilo.css">
@@ -64,7 +64,7 @@
       <p class="ex5-mulheres">Mulheres: </p>
       <p class="ex5-maior-altura">Maior altura: </p>
 
-      <fieldset class="container" id="m-ou-f">
+      <fieldset class="container m-ou-f">
          <legend>Escolha o sexo: </legend> 
 
          <div>
@@ -157,17 +157,17 @@
       <h1>Exercício 15</h1>
       <p class="ex15-dados">Dados salvos: </p>
 
-      <fieldset class="container" id="m-ou-f-ex15">
+      <fieldset class="container m-ou-f">
          <legend>Escolha o sexo: </legend> 
 
          <div>
             <input class="ex15-botao-radio" input type="radio" id="M-ex15" name="sexo" value="M">
-            <label for="M">M</label>
+            <label for="M-ex15">M</label>
          </div>
          
          <div>
             <input class="ex15-botao-radio" input type="radio" id="F-ex15" name="sexo" value="F">
-            <label for="F">F</label>
+            <label for="F-ex15">F</label>
          </div>
       </fieldset>
 
@@ -178,20 +178,143 @@
       <button class="ex15-botao-limpar">limpar</button>
    </div>
 
-   <script src="js/ex1.js"></script>
-   <script src="js/ex2.js"></script>
-   <script src="js/ex3.js"></script>
-   <script src="js/ex4.js"></script>
-   <script src="js/ex5.js"></script>
-   <script src="js/ex6.js"></script>
-   <script src="js/ex7.js"></script>
-   <script src="js/ex8.js"></script>
+   <div class="container">
+      <h1>Exercício 16</h1>
+      <fieldset class="container coluna" id="opiniao">
+         <legend>O que achou do filme?</legend> 
+
+         <div>
+            <input class="ex16-botao-radio" input type="radio" id="otimo" name="opiniao" value="otimo">
+            <label for="otimo">Ótimo</label>
+         </div>
+         
+         <div>
+            <input class="ex16-botao-radio" input type="radio" id="bom" name="opiniao" value="bom">
+            <label for="bom">Bom</label>
+         </div>
+
+         <div>
+            <input class="ex16-botao-radio" input type="radio" id="regular" name="opiniao" value="regular">
+            <label for="regular">Regular</label>
+         </div>
+      </fieldset>
+
+      <input class="ex16-caixa-de-texto" type="number" placeholder="Digite a sua idade">
+
+      <button class="ex16-botao-salvar">salvar dados</button>
+      <button class="ex16-botao-calcular">calcular</button>
+   </div>
+
+   <div class="container">
+      <h1>Exercício 17</h1>
+      <input class="ex17-caixa" type="number" placeholder="Digite um número">
+      <button class="ex17-botao-salvar">salvar número</button>
+      <button class="ex17-botao-calcular">calcular a soma dos números pares</button>
+   </div>
+
+   <div class="container">
+      <h1>Exercício 18</h1>
+      <fieldset class="container m-ou-f">
+         <legend>Escolha o sexo: </legend> 
+
+         <div>
+            <input input type="radio" id="M-ex18" name="sexo" value="M">
+            <label for="M-ex18">M</label>
+         </div>
+         
+         <div>
+            <input input type="radio" id="F-ex18" name="sexo" value="F">
+            <label for="F-ex18">F</label>
+         </div>
+      </fieldset>
+
+      <input class="ex18-caixa-idade" type="number" placeholder="Digite a idade">
+      <input class="ex18-caixa-peso" type="number" placeholder="Digite o peso">
+
+      <button class="ex18-botao-salvar">salvar dados</button>
+      <button class="ex18-botao-calcular">calcular</button>
+   </div>
+
+   <div class="container">
+      <h1>Exercício 19</h1>
+      <img class="ex19-imagem imagem" src="imagens/lampada.jpg">
+   </div>
+
+   <div class="container">
+      <h1>Exercício 20</h1>
+      <img class="ex20-imagem imagem" src="imagens/lampada.jpg">
+   </div>
+
+   <div class="container coluna">
+      <h1>Exercício 21</h1>
+      <input class="ex21-caixa-nome" placeholder="Nome">
+      <input class="ex21-caixa-sobrenome" placeholder="Sobrenome">
+      <button class="ex21-botao-saudação">saudação</button>
+   </div>
+
+   <div class="container">
+      <h1>Exercício 22</h1>
+      <input maxlength="11" id="cpf">
+      <p class="ex22-cpf-pontuado"></p>
+   </div>
+
+   <div class="container">
+      <h1>Exercício 23</h1>
+      <input maxlength="14" id="cpfPoint">
+      <p class="ex23-cpf"></p>
+   </div>
+
+   <div class="container centraliza" id="ex24-container">
+      <h1>Exercício 24</h1>
+      <button class="ex24-botao-verde">verde</button>
+      <button class="ex24-botao-vermelho">vermelho</button>
+   </div>
+
+   <div class="container coluna">
+      <h1>Exercício 25</h1>
+      <input class="ex25-caixa-1" type="number" placeholder="Digite um número">
+      <input class="ex25-caixa-2" type="number" placeholder="Digite um número">
+      <button class="ex25-botao-multiplicar">multiplicar</button>
+   </div>
+
+   <div class="container coluna">
+      <h1>Exercício 26</h1>
+      <input class="ex26-caixa" type="number" placeholder="Digite um número">
+      <button class="ex26-botao-desconto">calcular desconto (5%)</button>
+   </div>
+
+   <div class="container coluna">
+      <h1>Exercício 27</h1>
+      <input class="ex27-caixa" type="number" placeholder="Digite o ano de nascimento">
+      <button class="ex27-botao-calcular">calcular se é adulto</button>
+   </div>
+
+   <!-- <script src="js/ex01.js"></script>
+   <script src="js/ex02.js"></script>
+   <script src="js/ex03.js"></script>
+   <script src="js/ex04.js"></script>
+   <script src="js/ex05.js"></script>
+   <script src="js/ex06.js"></script>
+   <script src="js/ex07.js"></script>
+   <script src="js/ex08.js"></script>
    <script src="js/ex10.js"></script>
    <script src="js/ex11.js"></script>
    <script src="js/ex12.js"></script>
    <script src="js/ex13.js"></script>
    <script src="js/ex14.js"></script>
    <script src="js/ex15.js"></script>
+   <script src="js/ex16.js"></script>
+   <script src="js/ex17.js"></script>
+   <script src="js/ex18.js"></script>
+   <script src="js/ex19.js"></script>
+   <script src="js/ex20.js"></script>
+   <script src="js/ex21.js"></script>
+   <script src="js/ex22.js"></script>
+   <script src="js/ex23.js"></script>
+   <script src="js/ex24.js"></script> -->
+   <script src="js/ex25.js"></script>
+   <script src="js/ex26.js"></script>
+   <script src="js/ex27.js"></script>
 
 </body>
 

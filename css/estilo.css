@@ -1,10 +1,10 @@
-body{
+body {
    background-color: #ccc;
    padding: 1em;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.container{
+.container {
    background-color: white;
    width: fit-content;
    border-radius: 15px;
@@ -12,22 +12,26 @@ body{
    margin: 0.5em;
 }
 
-h1{
+h1 {
    text-align: center;
 }
 
-p{
+p {
    font-size: 21px;
 }
 
-#m-ou-f, #m-ou-f-ex15{
+.m-ou-f {
    display: flex;
    justify-content: space-around;
    padding-top: 0.5em;
    margin-bottom: 1.5em;
 }
 
-.centraliza{
+#opiniao {
+   padding-top: 0.5em;
+}
+
+.centraliza {
    text-align: center;
 }
 
@@ -36,8 +40,12 @@ p{
    height: 3.2em;
 }
 
-.coluna{
+.coluna {
    display: flex;
    flex-direction: column;
    gap: 6px;
+}
+
+.imagem {
+width: 15em;
 }
