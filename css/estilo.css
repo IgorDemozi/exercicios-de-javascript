@@ -49,3 +49,7 @@ p {
 .imagem {
 width: 15em;
 }
+
+#resultado{
+   width: auto;
+}
