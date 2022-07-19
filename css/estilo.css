@@ -53,3 +53,7 @@ width: 15em;
 #resultado{
    width: auto;
 }
+
+.texto-destaque{
+   color: blue;
+}
