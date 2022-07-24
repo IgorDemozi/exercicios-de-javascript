@@ -27,6 +27,11 @@ p {
    margin-bottom: 1.5em;
 }
 
+.ex18-m-ou-f {
+   margin: 0 auto;
+   margin-bottom: 1.5em;
+}
+
 #opiniao {
    padding-top: 0.5em;
 }
@@ -47,13 +52,35 @@ p {
 }
 
 .imagem {
-width: 15em;
+   width: 15em;
 }
 
-#resultado{
+#resultado {
    width: auto;
 }
 
-.texto-destaque{
+.texto-destaque {
    color: blue;
+   text-decoration: underline;
+}
+
+#ex45-formata-lista {
+   display: flex;
+   justify-content: space-between;
+}
+
+.ex45-formata-ul {
+   display: grid;
+   gap: 1em;
+   list-style-type: none;
+   padding-left: 0.5em;
+   padding-right: 0.5em;
+}
+
+.ex45 input {
+   width: 110px;
+}
+
+.select {
+   max-width: 338px;
 }
